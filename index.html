@@ -2,111 +2,157 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="SAT Bus بوابة مستقلة لمعلومات وخدمات طلب حجز النقل الجماعي بين المدن في السعودية، مع وجهات متعددة وخطوات واضحة قبل الحجز.">
-  <meta name="keywords" content="حجز النقل الجماعي, حجز حافلات, رحلات بين المدن, باصات السعودية, النقل الجماعي السعودية, تذاكر باص">
-  <meta name="robots" content="index,follow,max-image-preview:large">
-  <meta name="theme-color" content="#b77a16">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>حجز رحلات الحافلات بين المدن والدولية | SAT Bus</title>
+  <meta name="description" content="SAT Bus يساعدك على الوصول إلى حجز رحلات الحافلات بين المدن والرحلات الدولية، مع معلومات عن الوجهات والمدن وخطوات واضحة قبل الانتقال إلى منصة الحجز.">
+  <meta name="keywords" content="حجز حافلات, حجز النقل الجماعي, رحلات بين المدن السعودية, رحلات دولية بالحافلة, باصات الرياض جدة, باصات مكة المدينة, تذاكر باص, النقل الجماعي السعودية">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta name="theme-color" content="#b17b1b">
   <link rel="canonical" href="https://satbus.vercel.app/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ar_SA">
-  <meta property="og:title" content="SAT Bus | النقل الجماعي والرحلات بين المدن">
-  <meta property="og:description" content="استعرض الوجهات وخدمات النقل الجماعي ومعلومات الرحلات بين المدن بواجهة واضحة وسريعة.">
+  <meta property="og:title" content="حجز رحلات الحافلات بين المدن والدولية | SAT Bus">
+  <meta property="og:description" content="اختر نوع رحلتك، استعرض معلومات الوجهات، ثم انتقل إلى منصة الحجز الخارجية المناسبة بخطوات واضحة.">
   <meta property="og:url" content="https://satbus.vercel.app/">
   <meta property="og:image" content="https://satbus.vercel.app/assets/img/hero-satbus.svg">
-  <title>SAT Bus | النقل الجماعي والرحلات بين المدن</title>
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/img/logo-satbus.svg" type="image/svg+xml">
   <link rel="preload" as="image" href="/assets/img/hero-satbus.svg">
   <link rel="stylesheet" href="/assets/css/satpcosa-reference.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"WebSite",
+        "name":"SAT Bus",
+        "url":"https://satbus.vercel.app/",
+        "inLanguage":"ar-SA",
+        "description":"بوابة مستقلة لمعلومات النقل الجماعي والوصول إلى حجز رحلات الحافلات بين المدن والرحلات الدولية."
+      },
+      {
+        "@type":"FAQPage",
+        "mainEntity":[
+          {"@type":"Question","name":"هل SAT Bus شركة نقل أو موقعًا رسميًا لناقل محدد؟","acceptedAnswer":{"@type":"Answer","text":"لا. SAT Bus بوابة مستقلة للمعلومات والوصول إلى خدمات الحجز ولا تمثل جهة حكومية أو شركة نقل بعينها."}},
+          {"@type":"Question","name":"أين يتم إتمام حجز الرحلة؟","acceptedAnswer":{"@type":"Answer","text":"عند اختيار نوع الرحلة يتم نقلك إلى منصة حجز خارجية لإكمال البحث والحجز وفق الشروط والأسعار المتاحة لديها."}},
+          {"@type":"Question","name":"هل الأسعار والجداول المعروضة نهائية؟","acceptedAnswer":{"@type":"Answer","text":"السعر والجدول والتوفر النهائي يحددها مقدم خدمة الحجز أو النقل عند إتمام الطلب."}}
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main">تخطي إلى المحتوى</a>
 
-  <div class="promo-bar">🚌 SAT Bus — معلومات وخدمات طلب حجز النقل الجماعي بين المدن</div>
+  <div class="promo-bar">بوابة مستقلة لمعلومات النقل الجماعي — الحجز النهائي يتم عبر منصة خارجية</div>
 
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="brand" href="#home" aria-label="SAT Bus">
-        <img src="/assets/img/logo-satbus.svg" alt="شعار SAT Bus للنقل الجماعي">
+      <a class="brand" href="#home" aria-label="SAT Bus - الرئيسية">
+        <img src="/assets/img/logo-satbus.svg" alt="SAT Bus سات باص للنقل الجماعي">
       </a>
       <nav class="desktop-nav" aria-label="القائمة الرئيسية">
         <a class="active" href="#home">الرئيسية</a>
-        <a href="#booking">الرحلات</a>
-        <a href="#services">النقل الجماعي</a>
+        <a href="#booking">الحجز</a>
+        <a href="#routes">المسارات</a>
         <a href="#cities">المدن</a>
-        <a href="#about">من نحن</a>
-        <a href="#contact">اتصل بنا</a>
+        <a href="/services.html">الخدمات</a>
+        <a href="/about.html">من نحن</a>
       </nav>
       <button class="menu-button" type="button" aria-label="فتح القائمة" aria-expanded="false">☰</button>
     </div>
     <nav class="mobile-nav" aria-label="قائمة الجوال">
       <a href="#home">الرئيسية</a>
-      <a href="#booking">الرحلات</a>
-      <a href="#services">النقل الجماعي</a>
+      <a href="#booking">الحجز</a>
+      <a href="#routes">المسارات</a>
       <a href="#cities">المدن</a>
-      <a href="#about">من نحن</a>
-      <a href="#contact">اتصل بنا</a>
+      <a href="/services.html">الخدمات</a>
+      <a href="/about.html">من نحن</a>
     </nav>
   </header>
 
   <main id="main">
     <section id="home" class="hero-shell section-first">
       <div class="container">
-        <div class="hero-card">
-          <img class="hero-image" src="/assets/img/hero-satbus.svg" alt="حافلات نقل جماعي بين المدن">
+        <div class="hero-card hero-upgraded">
+          <img class="hero-image" src="/assets/img/hero-satbus.svg" alt="حافلة حديثة للسفر بين المدن">
           <div class="hero-copy">
-            <span>خدمات نقل تربط مدن المملكة</span>
-            <h1>وجهات عديدة<br>بحلول متجددة</h1>
-            <p>استعرض معلومات النقل الجماعي والوجهات وخطوات طلب الحجز بواجهة واضحة وسريعة ومناسبة للجوال.</p>
+            <span class="hero-kicker">رحلات بين المدن • رحلات دولية • معلومات واضحة</span>
+            <h1>ابدأ حجز رحلة الحافلة بخطوات أبسط</h1>
+            <p>اختر نوع رحلتك، ثم انتقل مباشرة إلى منصة الحجز الخارجية المناسبة. يمكنك قبل ذلك التعرف على أشهر المدن والمسارات ومعلومات تساعدك على الاستعداد للسفر.</p>
+            <div class="hero-actions" aria-label="خيارات الحجز الرئيسية">
+              <a class="hero-btn hero-btn-gold" href="https://sarbussat.online/ar/i.php" rel="external noopener">
+                <span class="hero-btn-icon">🚌</span>
+                <span><small>داخل السعودية</small><strong>حجز رحلات بين المدن</strong></span>
+                <b>←</b>
+              </a>
+              <a class="hero-btn hero-btn-navy" href="https://sarbussat.online/bus/ar/index.php" rel="external noopener">
+                <span class="hero-btn-icon">🌐</span>
+                <span><small>وجهات خارجية</small><strong>حجز رحلات دولية</strong></span>
+                <b>←</b>
+              </a>
+            </div>
+            <div class="hero-trust"><span>✓ مناسب للجوال</span><span>✓ انتقال مباشر للحجز</span><span>✓ معلومات قبل الرحلة</span></div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="booking" class="booking-strip">
-      <div class="container booking-grid">
-        <a class="booking-card gold" href="https://sarbussat.online/ar/i.php">
-          <span class="booking-icon">🚌</span>
-          <strong>رحلات بين المدن</strong>
-          <span class="arrow">←</span>
-        </a>
-        <a class="booking-card navy" href="https://sarbussat.online/bus/ar/index.php">
-          <span class="booking-icon">🌐</span>
-          <strong>رحلات دولي</strong>
-          <span class="arrow">←</span>
-        </a>
+    <section id="booking" class="booking-strip booking-enhanced" aria-labelledby="booking-title">
+      <div class="container">
+        <div class="section-heading booking-heading">
+          <span class="section-badge">اختر نوع الرحلة</span>
+          <h2 id="booking-title">روابط الحجز</h2>
+          <p>سيتم نقلك إلى موقع خارجي لإكمال البحث واختيار الموعد والسعر المتاح.</p>
+        </div>
+        <div class="booking-grid">
+          <a class="booking-card gold" href="https://sarbussat.online/ar/i.php" rel="external noopener">
+            <span class="booking-icon">🚌</span>
+            <span class="booking-copy"><strong>رحلات بين المدن</strong><small>للسفر بالحافلة بين المدن والوجهات داخل السعودية</small><em>الانتقال إلى منصة الحجز الخارجية</em></span>
+            <span class="arrow">←</span>
+          </a>
+          <a class="booking-card navy" href="https://sarbussat.online/bus/ar/index.php" rel="external noopener">
+            <span class="booking-icon">🌐</span>
+            <span class="booking-copy"><strong>رحلات دولية</strong><small>للوصول إلى خيارات الرحلات البرية الدولية المتاحة</small><em>الانتقال إلى منصة الحجز الخارجية</em></span>
+            <span class="arrow">←</span>
+          </a>
+        </div>
+        <p class="external-note">تنبيه: SAT Bus لا يحدد السعر أو التوفر النهائي؛ راجع تفاصيل الرحلة والشروط في منصة الحجز قبل الدفع.</p>
       </div>
     </section>
 
     <section class="stats-section">
       <div class="container stats-grid">
-        <article class="stat-card">
-          <div class="stat-icon">📍</div>
-          <div><strong>19+</strong><span>مدينة ضمن دليل الوجهات</span></div>
-        </article>
-        <article class="stat-card">
-          <div class="stat-icon">🧭</div>
-          <div><strong>2</strong><span>مساران رئيسيان لاستعراض الخدمة</span></div>
-        </article>
+        <article class="stat-card"><div class="stat-icon">📍</div><div><strong>19+</strong><span>مدينة ووجهة ضمن دليل السفر</span></div></article>
+        <article class="stat-card"><div class="stat-icon">🧭</div><div><strong>2</strong><span>خيارات واضحة: بين المدن ودولي</span></div></article>
       </div>
     </section>
 
-    <section id="services" class="section">
+    <section id="routes" class="section seo-section">
+      <div class="container">
+        <div class="section-heading"><span class="section-badge">دليل السفر بالحافلة</span><h2>حجز رحلات الحافلات بين المدن في السعودية</h2><p>يساعدك SAT Bus على الوصول بسرعة إلى خيارات الحجز، مع معلومات تمهيدية عن السفر بالحافلات بين المدن والوجهات الأكثر بحثًا.</p></div>
+        <div class="seo-copy-grid">
+          <article class="seo-copy-card">
+            <h3>رحلات بين المدن الرئيسية</h3>
+            <p>يمكن للمسافر البحث عن رحلات حافلات تربط مدنًا رئيسية مثل الرياض، جدة، مكة المكرمة، المدينة المنورة، الدمام، الطائف، أبها، تبوك، حائل والقصيم. تختلف الجداول والأسعار حسب يوم السفر ومقدم الخدمة والتوفر الفعلي.</p>
+          </article>
+          <article class="seo-copy-card">
+            <h3>ما الذي تراجعه قبل الحجز؟</h3>
+            <p>تأكد من مدينة الانطلاق والوصول، تاريخ الرحلة، وقت المغادرة، سياسة الأمتعة، شروط التعديل والإلغاء، ونقطة صعود الحافلة. راجع السعر النهائي وبيانات الرحلة داخل منصة الحجز قبل إتمام الدفع.</p>
+          </article>
+        </div>
+        <div class="route-chips" aria-label="أمثلة لمسارات شائعة">
+          <span>الرياض ↔ جدة</span><span>مكة ↔ المدينة</span><span>الرياض ↔ الدمام</span><span>جدة ↔ مكة</span><span>الرياض ↔ القصيم</span><span>جدة ↔ أبها</span><span>الطائف ↔ الرياض</span><span>المدينة ↔ جدة</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section values-section">
       <div class="container values-grid">
-        <article class="value-card">
-          <div class="value-title"><span>☀</span><h2>رؤيتنا</h2></div>
-          <p>تقديم تجربة رقمية واضحة تساعد المسافر على الوصول إلى معلومات النقل الجماعي والوجهة المناسبة بسهولة.</p>
-        </article>
-        <article class="value-card">
-          <div class="value-title"><span>➤</span><h2>رسالتنا</h2></div>
-          <p>تبسيط الوصول إلى معلومات الرحلات بين المدن مع عرض الخطوات والوجهات بصورة منظمة ومناسبة للجوال.</p>
-        </article>
-        <article class="value-card value-wide">
-          <div class="value-title"><span>◇</span><h2>قيمنا</h2></div>
-          <div class="mini-values">
-            <span>⚙ الوضوح</span><span>✥ البساطة</span><span>◉ المسؤولية</span><span>🤝 الثقة</span><span>♙ سهولة الاستخدام</span><span>⟳ التطوير المستمر</span>
-          </div>
-        </article>
+        <article class="value-card"><div class="value-title"><span>☀</span><h2>رؤيتنا</h2></div><p>تقديم تجربة رقمية واضحة تساعد المسافر على الوصول إلى معلومات النقل الجماعي والوجهة المناسبة بسهولة.</p></article>
+        <article class="value-card"><div class="value-title"><span>➤</span><h2>رسالتنا</h2></div><p>تبسيط الوصول إلى معلومات الرحلات بين المدن والدولية مع خطوات حجز مفهومة ومناسبة للجوال.</p></article>
+        <article class="value-card value-wide"><div class="value-title"><span>◇</span><h2>قيمنا</h2></div><div class="mini-values"><span>⚙ الوضوح</span><span>✥ البساطة</span><span>◉ المسؤولية</span><span>🤝 الثقة</span><span>♙ سهولة الاستخدام</span><span>⟳ التطوير المستمر</span></div></article>
       </div>
     </section>
 
@@ -114,14 +160,14 @@
       <div class="container company-card">
         <div class="company-copy">
           <span class="eyebrow">SAT Bus</span>
-          <h2>معلومات نقل عبر المدن</h2>
-          <p>SAT Bus موقع مستقل يساعد المستخدم على استعراض الوجهات وخدمات النقل الجماعي ومعلومات ما قبل الحجز، ولا يمثل جهة حكومية أو ناقلًا بعينه.</p>
-          <a class="outline-btn" href="/about.html">المزيد عن SAT Bus ←</a>
+          <h2>معلومات سفر قبل الانتقال إلى الحجز</h2>
+          <p>SAT Bus بوابة مستقلة تساعد المستخدم على فهم خيارات النقل الجماعي والوصول إلى روابط الحجز. لا يمثل الموقع جهة حكومية أو شركة نقل بعينها، ويتم تأكيد السعر والموعد والتوفر عبر مقدم الخدمة الخارجي.</p>
+          <a class="outline-btn" href="/about.html">تعرف أكثر عن الموقع ←</a>
         </div>
         <div class="network-visual">
           <div class="network-brand"><img src="/assets/img/logo-satbus.svg" alt="SAT Bus"></div>
           <div class="network-line"></div>
-          <div class="network-nodes"><span>الرحلات بين المدن</span><span>النقل الجماعي</span><span>معلومات الوجهات</span></div>
+          <div class="network-nodes"><span>رحلات بين المدن</span><span>رحلات دولية</span><span>دليل الوجهات</span></div>
           <div class="network-sub"><span>الرياض</span><span>مكة</span><span>جدة</span><span>المدينة</span><span>الدمام</span><span>أبها</span></div>
         </div>
       </div>
@@ -129,33 +175,45 @@
 
     <section class="section priorities-section">
       <div class="container">
-        <div class="section-heading"><h2>ما الذي يهم المسافر</h2><p>نركز على تجربة واضحة وسريعة ومريحة عند استعراض معلومات الرحلة.</p></div>
+        <div class="section-heading"><h2>تجربة مصممة للمسافر</h2><p>المعلومة الأساسية وزر الحجز يظهران بسرعة، خصوصًا على الهاتف.</p></div>
         <div class="priority-grid">
-          <article class="priority-card"><div class="avatar">⚡</div><h3>سرعة الوصول للخدمة</h3><div class="stars">★★★★★</div><p>روابط واضحة للوجهات والخدمات دون خطوات معقدة.</p></article>
-          <article class="priority-card"><div class="avatar">📱</div><h3>تجربة جوال مريحة</h3><div class="stars">★★★★★</div><p>واجهة متجاوبة مع أزرار وعناصر سهلة الاستخدام على الهواتف.</p></article>
-          <article class="priority-card"><div class="avatar">🛡️</div><h3>وضوح المعلومات</h3><div class="stars">★★★★★</div><p>تمييز واضح بين المعلومات الإرشادية وبين السعر أو التوفر الذي يؤكده مقدم الخدمة.</p></article>
+          <article class="priority-card"><div class="avatar">⚡</div><h3>وصول أسرع للحجز</h3><p>اختيار واضح بين الرحلات الداخلية والدولية من أعلى الصفحة.</p></article>
+          <article class="priority-card"><div class="avatar">📱</div><h3>تجربة جوال أفضل</h3><p>أزرار كبيرة، مسافات مريحة وشريط حجز سريع يظهر على الشاشات الصغيرة.</p></article>
+          <article class="priority-card"><div class="avatar">🛡️</div><h3>شفافية أكبر</h3><p>تنبيه واضح بأن الحجز يتم خارجيًا وأن السعر والتوفر يحددهما مقدم الخدمة.</p></article>
         </div>
       </div>
     </section>
 
     <section id="cities" class="section cities-section">
       <div class="container">
-        <div class="section-heading"><h2>شبكة المدن</h2><p>وجهات رئيسية داخل المملكة العربية السعودية</p></div>
+        <div class="section-heading"><span class="section-badge">وجهات داخل السعودية</span><h2>مدن شائعة للسفر بالحافلة</h2><p>استكشف معلومات عن مدن رئيسية ومسارات النقل الجماعي بين مناطق المملكة.</p></div>
         <div class="city-grid">
-          <span>📍 تبوك</span><span>📍 الدمام</span><span>📍 المدينة</span><span>📍 جدة</span><span>📍 مكة</span><span>📍 الرياض</span>
-          <span>📍 الطائف</span><span>📍 نجران</span><span>📍 حائل</span><span>📍 بريدة</span><span>📍 أبها</span><span>📍 الخبر</span>
+          <span>📍 الرياض</span><span>📍 جدة</span><span>📍 مكة</span><span>📍 المدينة</span><span>📍 الدمام</span><span>📍 الطائف</span>
+          <span>📍 أبها</span><span>📍 تبوك</span><span>📍 حائل</span><span>📍 بريدة</span><span>📍 الخبر</span><span>📍 نجران</span>
           <span>📍 الجوف</span><span>📍 عرعر</span><span>📍 الباحة</span><span>📍 ينبع</span><span>📍 خميس مشيط</span><span>📍 الأحساء</span>
-          <span>📍 الجبيل</span><a class="city-more" href="/destinations.html">عرض جميع الوجهات</a>
+          <span>📍 جازان</span><a class="city-more" href="/destinations.html">عرض دليل الوجهات ←</a>
         </div>
+      </div>
+    </section>
+
+    <section class="section faq-home" aria-labelledby="faq-home-title">
+      <div class="container">
+        <div class="section-heading"><span class="section-badge">أسئلة قبل الحجز</span><h2 id="faq-home-title">أسئلة شائعة عن رحلات الحافلات</h2></div>
+        <div class="faq-grid">
+          <details open><summary>هل SAT Bus شركة نقل أو موقعًا رسميًا لناقل محدد؟</summary><p>لا. SAT Bus بوابة مستقلة للمعلومات والوصول إلى خدمات الحجز، ولا تمثل جهة حكومية أو شركة نقل بعينها.</p></details>
+          <details><summary>أين يتم إتمام حجز الرحلة؟</summary><p>عند اختيار رحلات بين المدن أو الرحلات الدولية يتم نقلك إلى منصة حجز خارجية لإكمال البحث والحجز.</p></details>
+          <details><summary>هل الأسعار والجداول نهائية؟</summary><p>لا يعرض SAT Bus سعرًا أو توفرًا نهائيًا. راجع السعر والموعد والمقاعد المتاحة والشروط لدى مقدم الحجز قبل الدفع.</p></details>
+        </div>
+        <div class="faq-more"><a class="outline-btn" href="/faq.html">عرض جميع الأسئلة الشائعة ←</a></div>
       </div>
     </section>
 
     <section class="section feature-strip">
       <div class="container bottom-features">
-        <article><span>🎧</span><strong>معلومات مساعدة</strong><small>الوصول إلى الأسئلة الشائعة والسياسات بسهولة</small></article>
-        <article><span>🏷️</span><strong>خيارات واضحة</strong><small>تنظيم الوجهات والخدمات في أقسام مستقلة</small></article>
-        <article><span>🕘</span><strong>محتوى منظم</strong><small>الوصول للمعلومة بخطوات بسيطة</small></article>
-        <article><span>🚌</span><strong>وجهات متعددة</strong><small>استعراض مدن ومسارات سفر شائعة</small></article>
+        <article><span>🎧</span><strong>معلومات مساعدة</strong><small>أسئلة وسياسات سهلة الوصول</small></article>
+        <article><span>🏷️</span><strong>خيارات واضحة</strong><small>بين المدن أو دولي من دون التباس</small></article>
+        <article><span>🕘</span><strong>خطوات مختصرة</strong><small>الوصول إلى الحجز بسرعة</small></article>
+        <article><span>🚌</span><strong>وجهات متعددة</strong><small>دليل للمدن والمسارات الشائعة</small></article>
       </div>
     </section>
   </main>
@@ -163,12 +221,14 @@
   <footer id="contact" class="footer">
     <div class="container footer-row">
       <div>
-        <strong>SAT Bus</strong>
-        <p>بوابة مستقلة لمعلومات النقل الجماعي والرحلات بين المدن.</p>
-        <div class="footer-note">الأسعار والجداول والتوفر النهائي تعتمد على مقدم خدمة النقل عند إتمام الحجز.</div>
+        <img class="footer-logo" src="/assets/img/logo-satbus.svg" alt="SAT Bus">
+        <p>بوابة مستقلة لمعلومات النقل الجماعي والوصول إلى حجز الرحلات بين المدن والدولية.</p>
+        <div class="footer-note">الحجز يتم عبر مواقع خارجية. الأسعار والجداول والتوفر النهائي تعتمد على مقدم خدمة الحجز أو النقل.</div>
       </div>
       <div class="footer-links">
         <a href="/about.html">من نحن</a>
+        <a href="/services.html">الخدمات</a>
+        <a href="/destinations.html">الوجهات</a>
         <a href="/faq.html">الأسئلة الشائعة</a>
         <a href="/privacy.html">سياسة الخصوصية</a>
         <a href="/terms.html">الشروط والأحكام</a>
@@ -177,6 +237,11 @@
     </div>
     <div class="footer-bottom">© <span data-year></span> SAT Bus — جميع الحقوق محفوظة</div>
   </footer>
+
+  <div class="mobile-booking-dock" aria-label="الحجز السريع">
+    <a href="https://sarbussat.online/ar/i.php" rel="external noopener"><span>🚌</span><strong>بين المدن</strong></a>
+    <a href="https://sarbussat.online/bus/ar/index.php" rel="external noopener"><span>🌐</span><strong>دولي</strong></a>
+  </div>
 
   <script>
     const btn=document.querySelector('.menu-button'),nav=document.querySelector('.mobile-nav');
